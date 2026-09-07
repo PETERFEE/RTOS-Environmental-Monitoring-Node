@@ -1,0 +1,30 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+out/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+
+# CLion / JetBrains
+.idea/
+!.idea/runConfigurations/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+tests/native/build/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+compile_commands.json

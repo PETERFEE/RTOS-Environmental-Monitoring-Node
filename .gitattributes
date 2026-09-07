@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.s   text eol=lf
+*.ld  text eol=lf
+*.ino text eol=lf
